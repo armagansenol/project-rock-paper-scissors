@@ -2,9 +2,73 @@
 
 <html>
 
-<script>
+<head>
+  <meta charset="UTF-8">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
 
-</script>
 
+</head>
+
+<body>
+
+  <!-- game interface -->
+
+  <div id="game-interface">
+
+    <h1 class="greeting">
+      Welcome! <br> Let's play some Rock, Paper, Scissors</h1>
+
+    <div class="computersChoice">
+      <span><img class="image" src="./img/mickeygloves-right.png" alt="mickeymouse-gloves"></span>
+      <p class="computersChoiceBox">COMPUTER'S CHOICE</p>
+      <span><img class="image" src="./img/mickeygloves-left.png" alt="mickeymouse-gloves"></span>
+    </div>
+
+    <h2 class="greeting">Make your choice!</h2>
+
+
+    <div class="buttons">
+
+      <button id="rock" class="button">
+        <p>ROCK</p>
+      </button>
+
+      <button id="paper" class="button">
+        <p>PAPER</p>
+      </button>
+
+      <button id="scissors" class="button">
+        <p>SCISSORS</p>
+      </button>
+
+    </div>
+
+    <div class="results">
+      <p></p>
+    </div>
+
+  </div>
+
+  <!-- Restart Interface -->
+
+  <div style="display: none" id="end-interface-win">
+
+    <h1>PLAYER WINS &#60;3</h1>
+    <button class="restart">RESTART</button>
+
+  </div>
+
+  <div style="display: none" id="end-interface-lose">
+
+    <h1>COMPUTER WINS :(</h1>
+    <button class="restart">RESTART</button>
+
+  </div>
+
+  <script src="./main.js"></script>
+
+</body>
 
 </html>
