@@ -1,5 +1,5 @@
-Rock, Paper, Scissors browser game.
+Simple Rock, Paper, Scissors browser game. 
 
-The Odin Project JavaScript project.
+Html, Css and JavaScript used in this project.
 
-for more info: https://www.theodinproject.com/courses/web-development-101/lessons/rock-paper-scissors
+Part of The Odin Project Curriculum. For more info: https://www.theodinproject.com/courses/web-development-101/lessons/rock-paper-scissors
